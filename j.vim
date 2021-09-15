@@ -14,6 +14,18 @@
 " generally, horizontal lines in concealed characters means:
 " reversed, inverse, negated, uncommon, inner (rank)
 " see the following examples: ⤉ ¯ ⊼ ⍛ ⍊ ⍪
+"
+" unicode characters potentially used (many should show up correctly,
+" otherwise try a font like iosevka; note there are actual boxes on 
+" the fifth line)
+
+∙ ‥ ⠪ ⠕ ∷ ⁞ ⦙ ⠛ ⠶ ∇ ⍝ ⍝ ← ≝ ⇽ 🠐 🠔 ⇽ ≡ ∹ ι ί ϊ ι 𝜾 𝜄⍸ ⍳ ῑ 𝍸 ⍬ ∅ ⊣ ⋄ ⬥ ⬦ ↤ ⊢ ꝋ ⌽ ⍉ ᴓ
+⍋ ⍒ ⇑ ⇑ ⇓ ↑ ↓ ↑ ↓ ⤉ ⤈ ⊤ ⟙ ⏊ ⊥ ⌊ ⌈ ¨ ∎ ∇ ⬥ ⋄ ⬦ § × × ÷ √ ⎷ ≤ ≥ ≠ ≢ ¬ ∨ ∧ ⊽ ⍱ ⊼ ⍲ ∈ ∉ ∋
+⅀ ℿ 𝕃 ℾ ⩔ ⩓ ⸱ ∞ ¯ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ¯ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ○ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫
+❶ ❷ ❸ ❹ ❺ ❻ ❼ ❽ ❾ ❿ ⓫ ⓬ ⦃ ⟨❴⋋ ⦄ ⟩❵⋌ ❔ ❓ ❗ ❕ ‼ ∘⨀⍎↥⍕⦁⦾⦿⏂ ⊝⊖○⇴⟴⊕↚⬰⦗⧫⦂¦⫶⧁
+⍛ ∘ ∘ ⋄ ⍑ ⍊ ⍪ ⸴ ⌿ ⍀ 𝓭 𝒹 𝓈 𝓼 ⍐⍗⏍⍯⌸⍞𐌇◻ ⎕ ⍰ ⍇ ⍈ ⍞ ⍐ ⍗ ⊟ 𐌇 ⍗ → ⍂⧅⎅⧄⍁ ◫ ◫
+′ ′ ″ ‴ ⁗ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω α β γ δ ε ζ η θ ι κ λ μ ν ξ
+ο π ρ σ τ υ ϕ χ ψ ω ∇ ρ σ ∏ × ⋈ ≡ ≋ ∪ ∖ ⋂ △ ⍈ ⍇ ⊟ ⍞
 
 
 "" remove highlighting which occurs when concealing
@@ -376,8 +388,6 @@ syntax match jOp "\<writerel\>" conceal cchar=⍈
 syntax match jOp "\<readrel\>" conceal cchar=⍇
 syntax match jOp "\<delrel\>" conceal cchar=⊟
 syntax match jOp "\<appendrel\>" conceal cchar=⍞
-
-
 
 
 
