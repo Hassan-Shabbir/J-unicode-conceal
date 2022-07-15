@@ -15,5 +15,7 @@ set concealcursor=ncv
 ```
 in your vimrc file to conceal the characters with their unicode equivalent.
 
-- Finally, place `j.vim` in your `~/.config/nvim/after/syntax/` directory,
+- Place `j.vim` in your `~/.config/nvim/after/syntax/` directory,
 assuming neovim (or equivalent for vim).
+
+- View test.ijs or another file to verify everything is working as it shouldl.
